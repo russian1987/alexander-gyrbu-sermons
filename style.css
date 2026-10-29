@@ -19,3 +19,10 @@ select{padding:8px;border:1px solid var(--line);border-radius:8px;font:inherit;b
 .meta{color:var(--mut);font-size:.82rem}.tags{display:flex;gap:4px;flex-wrap:wrap;margin-top:auto}.tags span{font-size:.75rem;background:#f3ebdf;padding:2px 7px;border-radius:10px}
 .foot{border-top:1px solid var(--line);color:var(--mut);font-size:.88rem;padding:18px 0}
 @media(max-width:760px){.layout{grid-template-columns:1fr}.topics{flex-direction:row;flex-wrap:wrap;position:static}.hero h1{font-size:2rem}}
+.sumlink{display:inline-block;margin-top:.5rem;font-size:.85rem;font-weight:600}
+.sum{max-width:820px;display:block}.sum .vid{position:relative;aspect-ratio:16/9;margin:1.5rem 0 1rem;border-radius:12px;overflow:hidden;background:#000}
+.sum .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.sum #lang{margin-bottom:1rem}
+.sum h2{font-size:1.1rem;margin:1.4rem 0 .5rem}.sum ol,.sum ul{padding-left:1.3rem;line-height:1.55}.sum li{margin:.3rem 0}.sum p{line-height:1.6}
+.sum .lang+.lang{border-top:1px solid #ddd;margin-top:1.5rem;padding-top:.5rem}.note{font-size:.85rem;opacity:.7;margin-top:2rem}
+.hero .back{color:inherit;opacity:.85}
+.body a.sumlink{color:var(--acc);font-size:.85rem}.sum .seg{display:inline-flex}
