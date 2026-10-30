@@ -1,13 +1,13 @@
 <!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Александр Гырбу — проповеди по темам</title><meta name="description" content="Неофициальный каталог проповедей Александра Гырбу на YouTube, по темам.">
 <link rel="stylesheet" href="style.css"></head><body>
-<header class="hero"><div class="wrap"><p class="eyebrow">Неофициальный каталог проповедей</p><h1>Александр Гырбу</h1><p class="lead">Проповеди, беседы и ответы на вопросы с YouTube, собранные по темам. <span class="en">Alexander Gyrbu — sermons by topic.</span></p></div></header>
+<header class="hero"><div class="wrap"><p class="eyebrow" data-i="eyebrow">Неофициальный каталог проповедей</p><h1 data-i="name">Александр Гырбу</h1><p class="lead" data-i="lead">Проповеди, беседы и ответы на вопросы с YouTube, собранные по темам.</p></div></header>
 <main class="wrap layout">
-<aside><h2>Темы</h2><div id="topics" class="topics"></div></aside>
+<aside><div class="seg lang" id="lang"><button data-l="ru" class="on" onclick="setLang('ru')">RU</button><button data-l="en" onclick="setLang('en')">EN</button></div><h2 data-i="topics">Темы</h2><div id="topics" class="topics"></div></aside>
 <section>
 <div class="bar"><input id="q" type="search" placeholder="Поиск по названию…" aria-label="Поиск">
-<div class="seg" id="type"><button data-t="sermon" class="on">Проповеди</button><button data-t="clip">Клипы и Shorts</button><button data-t="all">Все</button></div>
-<select id="sort" aria-label="Сортировка"><option value="new">Сначала новые</option><option value="old">Сначала старые</option><option value="long">Самые длинные</option><option value="pop">Популярные</option></select></div>
+<div class="seg" id="type"><button data-t="sermon" class="on" data-i="sermon">Проповеди</button><button data-t="clip" data-i="clip">Клипы и Shorts</button><button data-t="all" data-i="all">Все</button></div>
+<select id="sort" aria-label="Сортировка"><option value="new" data-i="new">Сначала новые</option><option value="old" data-i="old">Сначала старые</option><option value="long" data-i="long">Самые длинные</option><option value="pop" data-i="pop">Популярные</option></select></div>
 <p id="count" class="count"></p><div id="grid" class="grid"></div></section></main>
-<footer class="foot"><div class="wrap"><p>Неофициальный фан-каталог. Все видео размещены на YouTube их владельцами; сайт только ссылается на них. Unofficial fan index linking to YouTube.</p></div></footer>
-<script src="app.js"></script></body></html>
+<footer class="foot"><div class="wrap"><p data-i="foot">Неофициальный фан-каталог. Все видео размещены на YouTube их владельцами; сайт только ссылается на них.</p></div></footer>
+<script src="i18n.js"></script><script src="app.js"></script><script>applyLang()</script></body></html>
